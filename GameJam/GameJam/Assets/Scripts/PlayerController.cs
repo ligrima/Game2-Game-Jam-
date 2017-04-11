@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
@@ -12,6 +14,9 @@ public class PlayerController : MonoBehaviour {
 
     // This is the character's physics component
     Rigidbody2D playerRB;
+
+    // This is the character's amount of lives
+    public int playerLives = 4;
 
     // The ground checking object
     Transform groundCheck;
@@ -52,6 +57,22 @@ public class PlayerController : MonoBehaviour {
     // When the player disappears, reset him
     private void OnBecameInvisible()
     {
+        //check if position of the character is less than 0 on the Y axis
+        if (transform.position.y < 0)
+        {
+
+        //if the amount of lives is greater than 0, decrease lives by 1
+            if (playerLives > 0 )
+            {
+                playerLives --;
+           }
+       //else, die and game over
+                else
+            {
+                //gameover
+                SceneManager.LoadScene("GameOver Scene");
+            }
+        }
         transform.position = defaultPos;
         transform.rotation = Quaternion.identity;
     }
