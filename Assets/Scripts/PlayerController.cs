@@ -12,8 +12,14 @@ public class PlayerController : MonoBehaviour {
     // the character's jump force
     float jumpForce = 300f;
 
+    // this is the character's animator
+    Animator anim;
+
     // this is the character's physiscs component
     Rigidbody2D playerRB;
+
+    // this is the character's sprite renderer
+    SpriteRenderer spriteRenderer;
 
     // player lives
     public int playerLives = 4;
@@ -33,7 +39,9 @@ public class PlayerController : MonoBehaviour {
     // when the script is activated, get its components
     void Awake () {
 
+        anim = GetComponent<Animator>();
         playerRB = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         groundCheck = transform.Find("groundCheck");
         defaultPos = transform.position;
@@ -45,6 +53,7 @@ public class PlayerController : MonoBehaviour {
     {
 
         isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+        anim.SetBool("isGrounded", isGrounded);
 
         // this tackles the left and right arrow keys
         float h = Input.GetAxisRaw("Horizontal");
@@ -97,6 +106,17 @@ public class PlayerController : MonoBehaviour {
 
         // make the charcater move
         playerRB.velocity = movement;
+
+        // check that the player is looking in the direction he's moving
+        if ((h < 0f && !spriteRenderer.flipX) || (h > 0f && spriteRenderer.flipX))
+        {            spriteRenderer.flipX = !spriteRenderer.flipX;        }
+
+        // if h is zero, character is still
+        // if h is not zero, character is moving
+        bool isWalking = (h != 0f);
+
+        // set the boolean value to the condition above
+        anim.SetBool("isWalking", isWalking);
 
     }
 }
