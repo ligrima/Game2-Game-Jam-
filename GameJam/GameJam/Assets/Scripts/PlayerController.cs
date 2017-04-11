@@ -16,7 +16,10 @@ public class PlayerController : MonoBehaviour {
     Rigidbody2D playerRB;
 
     // This is the character's amount of lives
-    public int playerLives = 4;
+    public int playerLives = 5;
+
+    // This is the canvas text box
+    public Text lifeText;
 
     // The ground checking object
     Transform groundCheck;
@@ -62,9 +65,16 @@ public class PlayerController : MonoBehaviour {
         {
 
         //if the amount of lives is greater than 0, decrease lives by 1
-            if (playerLives > 0 )
+            if (playerLives > 1 )
             {
                 playerLives --;
+
+                // adjust the life on the canvas
+                lifeText.text = "Lives: " + playerLives;
+
+                // Show us the score in the console
+                Debug.Log(playerLives);
+                
            }
        //else, die and game over
                 else
