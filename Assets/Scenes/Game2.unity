@@ -100,7 +100,6 @@ GameObject:
   m_Component:
   - component: {fileID: 97699873}
   - component: {fileID: 97699872}
-  - component: {fileID: 97699875}
   - component: {fileID: 97699874}
   m_Layer: 0
   m_Name: Snorkel
@@ -166,31 +165,11 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 2.9299998, y: 2.99}
---- !u!50 &97699875
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 97699871}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &166992632
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +336,6 @@ GameObject:
   m_Component:
   - component: {fileID: 556159667}
   - component: {fileID: 556159666}
-  - component: {fileID: 556159669}
   - component: {fileID: 556159668}
   m_Layer: 0
   m_Name: Bike
@@ -423,31 +401,11 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3.7, y: 2.3799999}
---- !u!50 &556159669
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 556159665}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &805343953
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +515,6 @@ GameObject:
   m_Component:
   - component: {fileID: 822262368}
   - component: {fileID: 822262367}
-  - component: {fileID: 822262370}
   - component: {fileID: 822262369}
   m_Layer: 0
   m_Name: Mobile Phone
@@ -623,31 +580,11 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 2.08, y: 3.74}
---- !u!50 &822262370
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 822262366}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &924530692
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +594,6 @@ GameObject:
   m_Component:
   - component: {fileID: 924530694}
   - component: {fileID: 924530693}
-  - component: {fileID: 924530696}
   - component: {fileID: 924530695}
   m_Layer: 0
   m_Name: Clock
@@ -723,31 +659,11 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3.5099998, y: 3.5099998}
---- !u!50 &924530696
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 924530692}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &929084028
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +677,7 @@ GameObject:
   - component: {fileID: 929084031}
   - component: {fileID: 929084030}
   - component: {fileID: 929084029}
+  - component: {fileID: 929084035}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -867,6 +784,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929084035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 929084028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83fbbaf4037e0b418e3b294b9389e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreText: {fileID: 166992634}
 --- !u!1 &1040348648
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,7 +834,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1057146164}
   - component: {fileID: 1057146163}
-  - component: {fileID: 1057146166}
   - component: {fileID: 1057146165}
   m_Layer: 0
   m_Name: Sailing Boat
@@ -970,31 +899,11 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3.4099998, y: 3.09}
---- !u!50 &1057146166
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1057146162}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1269114259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,7 +1247,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1801913969}
   - component: {fileID: 1801913968}
-  - component: {fileID: 1801913971}
   - component: {fileID: 1801913970}
   m_Layer: 0
   m_Name: Skateboard
@@ -1404,31 +1312,11 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3.17, y: 3.1799998}
---- !u!50 &1801913971
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1801913967}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1955693149
 GameObject:
   m_ObjectHideFlags: 0

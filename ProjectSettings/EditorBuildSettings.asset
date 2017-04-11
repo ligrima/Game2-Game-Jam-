@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Game2.unity
   - enabled: 1
     path: Assets/Scenes/GameOver Scene.unity
+  - enabled: 1
+    path: Assets/Scenes/YouWin Scene.unity
