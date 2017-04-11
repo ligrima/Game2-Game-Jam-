@@ -28,9 +28,15 @@ public class ColliderController : MonoBehaviour
         // check that the player has hit a sphere
         if (c.tag == "GoodObj")
         {
-
             // increment the score when the capsule hits the sphere
             score += 1;
+        }
+
+        else if (c.tag == "BadObj")
+        {
+            // increment the score when the capsule hits the sphere
+            score -= 1;
+        }
 
             // adjust the score on the canvas
             scoreText.text = "Score: " + score;
@@ -46,18 +52,14 @@ public class ColliderController : MonoBehaviour
             Debug.Log(score);
 
             // check that the score is the same as the number of spheres, and end the game
-            if (score == numOfGoodObj)
+            if (GameObject.FindGameObjectsWithTag("GoodObj").Length <= 1)
             {
                 SceneManager.LoadScene("YouWin Scene");
             }
-        }
-        else
-        {
 
-            // if the player hits anything that is not the sphere, show the game over screen
-            SceneManager.LoadScene("GameOver Scene");
-
-            // in order to load a new scene in Unity, we need to set it up inb the Build Settings
-        }
+            if (score <= 0)
+            {
+                SceneManager.LoadScene("GameOver Scene");
+            }
     }
 }
