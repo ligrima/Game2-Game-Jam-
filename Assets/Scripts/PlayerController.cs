@@ -34,7 +34,9 @@ public class PlayerController : MonoBehaviour {
 
     // since we're using physics, use the FixedUpdate method
     void FixedUpdate()
-    {        isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+    {
+
+        isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
         // this tackles the left and right arrow keys
         float h = Input.GetAxisRaw("Horizontal");
@@ -44,7 +46,11 @@ public class PlayerController : MonoBehaviour {
 
         // make the character jump!
         if (Input.GetButtonDown("Jump"))
-        {            playerRB.AddForce(Vector2.up * jumpForce);        }    }
+        {
+            playerRB.AddForce(Vector2.up * jumpForce);
+        }
+
+    }
 
     // when the player disappears, resst him
     void OnBecameInvisible()
