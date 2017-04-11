@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour {
     // player lives
     public int playerLives = 4;
 
+    // the canvas text box
+    public Text lifeText;
+
     // the ground checking object
     Transform groundCheck;
 
@@ -64,9 +67,15 @@ public class PlayerController : MonoBehaviour {
         if (transform.position.y < 0)
         {
             //if the lives are greater than 0, decrease by 1
-            if (playerLives > 0)
+            if (playerLives > 1)
             {
                 playerLives--;
+
+                //adjust the life on canvas
+                lifeText.text = "Lives: " + playerLives;
+
+                // show us the score in the console (Ctrl + Shift + C in Unity
+                Debug.Log(playerLives);
             }
 
             //else gameover
