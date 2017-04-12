@@ -2,23 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
-{
+public class CameraFollow : MonoBehaviour {
 
-    //what object are we following
+    // what object are we following
     public Transform followObject;
 
-    //how smooth is the animation?
+    // how smooth is the animation?
     float smoothing = 5f;
 
     // how far away is the camera from the object?
     Vector3 offset;
+
 
     // when the script starts, find out its offset
     void Start()
     {
 
         offset = transform.position - followObject.position;
+
     }
 
     // move the camera according to physics
@@ -32,5 +33,7 @@ public class CameraFollow : MonoBehaviour
         }
 
         transform.position = Vector3.Lerp(transform.position, targetPos, smoothing * Time.deltaTime);
+
     }
+
 }

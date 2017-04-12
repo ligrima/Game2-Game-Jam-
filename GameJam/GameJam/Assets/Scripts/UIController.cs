@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour {
 
-    // This will return the player to the mainscene
-    public void NewGame ()
+    // This will return the player to the main scene
+    public void NewGame()
     {
-        SceneManager.LoadScene("Game");
+
+        SceneManager.LoadScene("Game2");
+
     }
-	
 }
