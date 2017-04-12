@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f6ffd302eff42fe48b72d42eba219036
-timeCreated: 1491939994
+timeCreated: 1491982700
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -44,7 +44,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -77,12 +77,12 @@ TextureImporter:
       name: Walk cycle sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 134
-        width: 764
-        height: 1273
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 877
+        height: 1560
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -90,12 +90,12 @@ TextureImporter:
       name: Walk cycle sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 934
-        y: 140
-        width: 763
-        height: 1286
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 877
+        y: 0
+        width: 877
+        height: 1560
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -103,12 +103,12 @@ TextureImporter:
       name: Walk cycle sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 1842
-        y: 134
-        width: 721
-        height: 1292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1754
+        y: 0
+        width: 877
+        height: 1560
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -116,12 +116,12 @@ TextureImporter:
       name: Walk cycle sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 2738
-        y: 143
-        width: 747
-        height: 1283
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2631
+        y: 0
+        width: 877
+        height: 1560
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

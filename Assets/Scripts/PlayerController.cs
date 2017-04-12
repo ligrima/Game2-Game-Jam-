@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour {
 
     // the character's speed
-    float speed = 5f;
+    float speed = 3f;
 
     // the character's jump force
     float jumpForce = 300f;
@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour {
     Transform groundCheck;
 
     // is the player touching the ground?
-    bool isGrounded = true;
+    public bool isGrounded = true;
 
     // the player's default position
     Vector3 defaultPos;
@@ -109,7 +109,11 @@ public class PlayerController : MonoBehaviour {
 
         // check that the player is looking in the direction he's moving
         if ((h < 0f && !spriteRenderer.flipX) || (h > 0f && spriteRenderer.flipX))
-        {            spriteRenderer.flipX = !spriteRenderer.flipX;        }
+        {
+
+            spriteRenderer.flipX = !spriteRenderer.flipX;
+
+        }
 
         // if h is zero, character is still
         // if h is not zero, character is moving

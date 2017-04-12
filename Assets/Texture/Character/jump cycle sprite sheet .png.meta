@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 607309051f1e0304a9e653904fb6080b
-timeCreated: 1491944259
+timeCreated: 1491982691
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -43,7 +43,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -76,12 +76,12 @@ TextureImporter:
       name: jump cycle sprite sheet _0
       rect:
         serializedVersion: 2
-        x: 206
-        y: 165
-        width: 763
-        height: 1272
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1169.3334
+        height: 1508
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -89,12 +89,12 @@ TextureImporter:
       name: jump cycle sprite sheet _1
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 164
-        width: 724
-        height: 1227
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1169
+        y: 0
+        width: 1169.3335
+        height: 1508
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -102,12 +102,12 @@ TextureImporter:
       name: jump cycle sprite sheet _2
       rect:
         serializedVersion: 2
-        x: 2551
-        y: 165
-        width: 752
-        height: 1276
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2338
+        y: 0
+        width: 1169.3335
+        height: 1508
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
