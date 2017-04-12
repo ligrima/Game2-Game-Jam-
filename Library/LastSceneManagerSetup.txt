@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/GameOver Scene.unity
-=======
-- path: Assets/Scenes/Game2.unity
->>>>>>> parent of ac676cf... game with scenes
+- path: Assets/Scenes/MenuScene.unity
   isLoaded: 1
   isActive: 1

@@ -440,7 +440,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2147109864}
+      - m_Target: {fileID: 2147109866}
         m_MethodName: NewGame
         m_Mode: 1
         m_Arguments:
@@ -584,9 +584,8 @@ GameObject:
   - component: {fileID: 2147109861}
   - component: {fileID: 2147109860}
   - component: {fileID: 2147109859}
-  - component: {fileID: 2147109863}
-  - component: {fileID: 2147109864}
   - component: {fileID: 2147109865}
+  - component: {fileID: 2147109866}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -670,28 +669,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &2147109863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2147109858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b41ba9d544b14b4d8d620df14b46077, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2147109864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2147109858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da631c466b657a04bb6d518ec1b2d1f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2147109865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,4 +681,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 1.7763578
+  m_AspectRatio: 2.2904413
+--- !u!114 &2147109866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2147109858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1e1c0e23bda414e897deade9e4578a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
